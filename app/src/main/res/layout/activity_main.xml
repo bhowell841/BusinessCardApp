@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brendan.businesscardapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Brendan Howell"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/txtJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Special Education Teacher"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Certified K-12"
+        android:id="@+id/txtCert"
+        android:layout_below="@+id/txtJob"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mathematics Certified"
+        android:id="@+id/txtCert2"
+        android:layout_below="@+id/txtCert"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bhowell841@aol.com"
+        android:id="@+id/txtEmail"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="845 304 0643"
+        android:id="@+id/txtNumber"
+        android:layout_above="@+id/txtEmail"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durham NC 27713"
+        android:id="@+id/txtCity"
+        android:layout_above="@+id/txtNumber"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4713 Carlton Crossing Dr"
+        android:id="@+id/txtStreet"
+        android:layout_above="@+id/txtCity"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp" />
+
+</RelativeLayout>
